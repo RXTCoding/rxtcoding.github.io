@@ -1,0 +1,149 @@
+
+
+.authParentDiv{
+    box-sizing: border-box;
+width: 1427px;
+height: 901px;
+overflow: visible;
+background-image: url('https://shidas-broom-closet.s3.us-east-2.amazonaws.com/sbc_bg+flipped.PNG');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 10px;
+border: 1px solid #222;
+margin-left: 50px;
+padding-left: 350px;
+padding-top: 100px;
+}
+
+@media(max-width: 995px){
+    .container{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+.input-button{
+box-shadow: 0px 10px 14px -7px #276873;
+  background:linear-gradient(to bottom, #599bb3 5%, #e09743 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  transition: 0.1s ease, height 0s ease, width 0s 0s ease;
+  height: 60px;
+  width: 200px;
+  margin-left: 70px;
+  margin-top: 20px;
+  align-content: center
+}
+
+.input-button:hover{
+    background-color:#408c99;
+    height: 60px;
+    width: 250px;
+  }
+
+  .input{
+      height: 20px;
+      width: 30vw;
+      border-radius: 10%;
+  }
+
+  .Authpage{
+      display: flex;
+      flex-direction: column;
+      height: 40vh;
+      width: 50vw;
+      background-color: rgba(255, 248, 220, 0.281);
+      border-radius: 5%;
+      align-content: center;
+      padding-left: 90px;
+      padding-top: 70px;
+  }
+
+.input-filed{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+@media(max-width: 995px){
+    .authParentDiv{ 
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    }
+    .Authpage{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 40vw;
+        background-color: rgba(255, 248, 220, 0.281);
+        border-radius: 5%;
+        align-content: center;
+        padding-left: 90px;
+        padding-top: 70px;
+    }
+    .input{
+        height: 20px;
+        width: 15vw;
+        border-radius: 10%;
+    }
+
+    .input-button{
+        box-shadow: 0px 10px 14px -7px #276873;
+          background:linear-gradient(to bottom, #599bb3 5%, #e09743 100%);
+            background-color:#599bb3;
+            border-radius:8px;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size: x-small;
+            font-weight:bold;
+            padding:13px 32px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #3d768a;
+          transition: 0.1s ease, height 0s ease, width 0s 0s ease;
+          height: 30px;
+          width: 100px;
+          margin-left: 70px;
+          margin-top: 20px;
+          align-content: center
+        }
+        .authParentDiv{
+            box-sizing: border-box;
+        width: 1427px;
+        height: 901px;
+        overflow: visible;
+        background-image: url('https://shidas-broom-closet.s3.us-east-2.amazonaws.com/sbc_bg+flipped.PNG');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        border: 1px solid #222;
+        margin-left: 50px;
+        padding-left: 10px;
+        padding-top: 50px;
+        }
+        .Authpage{
+            display: flex;
+            flex-direction: column;
+            height: 70vh;
+            width: 40vw;
+            background-color: rgba(255, 248, 220, 0.281);
+            border-radius: 5%;
+            align-content: center;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+}

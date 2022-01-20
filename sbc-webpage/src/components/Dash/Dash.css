@@ -1,0 +1,122 @@
+/* .dashParentDiv{
+    box-sizing: border-box;
+width: 1427px;
+height: 901px;
+overflow: visible;
+background-image: url('https://shidas-broom-closet.s3.us-east-2.amazonaws.com/sbc_bg+flipped.PNG');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 10px;
+border: 1px solid #222;
+margin-left: 50px;
+} */
+
+.dashParentDiv{
+    box-sizing: border-box;
+width: 450px;
+height: 600px;
+/* width: 1427px;
+height: 901px; */
+overflow: visible;
+background-image: url('https://shidas-broom-closet.s3.us-east-2.amazonaws.com/sbc_bg+flipped.PNG');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 10px;
+/* border: 3px solid red; */
+border: 1px solid #222;
+box-shadow: 3px 3px 3px gray;
+margin: 20px;
+display: inline-block;
+flex-wrap: wrap;
+padding: 10px;
+}
+
+.dashContainer{
+    display: inline-block;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.dashContainer{
+    display: inline-block;
+}
+
+.dashSerImgParent{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.dashImgChildDiv{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.dashImg{
+    background-color: transparent;
+    margin-left: auto;
+  margin-right: auto;
+text-align: center;
+border-radius: 3%;
+/* box-shadow: 1px 1px 1px black; */
+}
+
+.dashTextContainer{
+margin: 10px;
+}
+
+.dashName{
+    height: fit-content;
+    width: fit-content;
+    background-color: wheat;
+    margin-left: auto;
+  margin-right: auto
+}
+.dashDescription{
+    height: fit-content;
+    width: fit-content;
+    background-color: whitesmoke;
+    margin-left: auto;
+  margin-right: auto
+}
+
+.dashPrice{
+    height: fit-content;
+    width: fit-content;
+    background-color: whitesmoke;
+    margin-left: auto;
+  margin-right: auto
+}
+
+.dashButton{
+  box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.dashImg{
+  border-radius: 5%;
+}

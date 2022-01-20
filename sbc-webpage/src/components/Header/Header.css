@@ -1,0 +1,179 @@
+.main-header{
+    box-sizing: border-box;
+width: 1519px;
+height: 176px;
+background-color: #000000;
+overflow: visible;
+border: 3px solid #d7730f;
+display: flex;
+padding: 20px;
+justify-content: space-around;
+}
+
+.headerH4{
+    width: 332px;
+    height: 52px;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    color: #d7730f;
+    margin-top: 30px;
+}
+
+.headerLogo{
+    width: 166px;
+height: 122px;
+overflow: visible;
+background-image:'https://shidas-broom-closet.s3.us-east-2.amazonaws.com/andinkra+symbol+strength.PNG';
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.links{
+margin-left: 20px;
+margin-top: 40px;
+box-shadow: 0px 22px 16px -7px #276873;
+height: 20px;
+border-radius: 4%;
+}
+
+.links{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links:hover {
+    background-color: teal;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    color: white;
+    text-decoration:underline white;
+}
+.links:link {
+    text-decoration: none;
+}
+
+.links.button {
+    text-decoration: underline;
+    }
+
+.links.active {
+    background-color: #ffffff1e;
+    color: white;
+    text-decoration: none;
+}
+
+
+  .nav-drop {
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100px;
+    display: none;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  
+  
+  @media (max-width: 995px) {
+    .links-drop {
+      display: block;
+    }
+    .main-header {
+      display: none;
+    }
+    .nav-drop {
+      display: block;
+      height: 100vh;
+      width: 30vw;
+    }
+    .headerH4{
+    width: 132px;
+    height: 52px;
+    font-size: smaller;
+    }
+
+    .prodSerImgParent{
+        display:block
+    }
+    .drop-header-menu{
+        background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+        background-color:#599bb3;
+        border-radius:8px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:20px;
+        font-weight:bold;
+        padding:13px 32px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3d768a;
+    }
+    .drop-header-menu:hover {
+        background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+        background-color:#408c99;
+    }
+    .drop-header-menu {
+        position:relative;
+        top:1px;
+    }
+  }
+  @media (min-width: 995px){
+    .drop-header-menu{
+    display: none;
+    }
+}
+  
+  @keyframes slide-in {
+    from {
+      transform: translatex(-150%);
+    }
+    to {
+      transfrom: translatex(0%);
+    }
+  }
+  
+
+  .links-drop{
+    margin-left: 20px;
+    margin-top: 40px;
+    box-shadow: 0px 22px 16px -7px #276873;
+    height: 20px;
+    border-radius: 4%;
+    }
+    
+    .links-drop{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .links-drop:hover {
+        background-color: teal;
+        background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+        color: white;
+        text-decoration:underline white;
+    }
+    .links-drop:link {
+        text-decoration: none;
+    }
+    
+    .links-drop.button {
+        text-decoration: underline;
+        }
+    
+    .links-drop.active {
+        background-color: #ffffff1e;
+        color: white;
+        text-decoration: none;
+    }
+

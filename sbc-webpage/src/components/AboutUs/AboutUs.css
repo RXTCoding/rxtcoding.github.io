@@ -1,0 +1,20 @@
+.abtParentDiv{
+    box-sizing: border-box;
+width: 1427px;
+height: 901px;
+overflow: visible;
+background-color:rgba(255, 255, 255, 0.452);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 10px;
+border: 1px solid #222;
+margin-left: 50px;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 30px;
+}
+
+.abtUsTxt{
+	
+}
